@@ -1,0 +1,46 @@
+<div class=" jumbo text-center">
+<div class="">
+  <h1 ><em>{{theChamp.data.name}}</em> <span class="text-info"><h3>{{theChamp.data.title}}</h3></span></h1>
+
+</div>
+
+<div class="col-md-3 detailImg" ng-repeat="s in skins">
+
+  <img  src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{{theChamp.data.key}}_{{s.num}}.jpg" />
+  <!-- <img class="detailsImg" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{{theChamp.data.key}}_1.jpg" />
+  <img class="detailsImg" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{{theChamp.data.key}}_2.jpg" />
+  <img class="detailsImg" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{{theChamp.data.key}}_3.jpg" /> -->
+</div>
+
+
+</div>
+
+<div class="clearImg">
+  <h3 class="bg-info lore ">Lore</h3>
+  <h4 class="well lore-data lead">{{theChamp.data.lore}}</h4>
+</div>
+<h3 class="bg-info">Abilities</h3>
+<br />
+
+<div class='well text-primary'>
+  <h3>Passive: {{theChamp.data.passive.name}}</h3>
+  <img src="http://ddragon.leagueoflegends.com/cdn/7.2.1/img/passive/{{theChamp.data.passive.image.full}}" />
+  <h4 class="text-info">{{theChamp.data.passive.description}}</h4>
+</div>
+<div ng-repeat="ability in abilities">
+
+<dl class="text-left dl-horizontal well">
+
+<li class="skills text-primary">
+  <h4>{{ability.name}}</h4>
+</li>
+    <dt >
+      <img src="http://ddragon.leagueoflegends.com/cdn/7.2.1/img/spell/{{ability.image.full}}" />
+
+    </dt>
+    <dd class="text-info">
+      {{ability.description}}
+    </dd>
+  </dl>
+
+</div>

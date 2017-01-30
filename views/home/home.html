@@ -1,0 +1,15 @@
+<button ui-sref="weather">weather</button>
+
+
+<div>
+
+<ul class="mainImgDiv"  >
+  <li ng-repeat="champ in allChamps">
+    <img class="mainImg" ui-sref="details({id: champ.id})" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{{champ.key}}_0.jpg" />
+  </li>
+</ul>
+
+
+
+
+</div>
