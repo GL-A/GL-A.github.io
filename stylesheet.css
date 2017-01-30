@@ -50,6 +50,11 @@ em{
   margin-left: 10%;
   height: 200px;
   overflow: scroll;
+
+
+}
+pre{
+  white-space: pre-wrap;
 }
 .mobile{
   display: none;
