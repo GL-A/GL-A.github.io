@@ -1,14 +1,19 @@
+
 .mainImgDiv {
   height: 100vh;
   display: block;
   list-style: none;
   display: flex;
   flex-flow: row wrap;
+
 }
 
 .mainImg {
-  height: 150px;
-  width: 150px;
+  height: 480px;
+  width: 450px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
 }
 
 .jumbo{

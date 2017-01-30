@@ -18,8 +18,8 @@ angular.module('app').controller('detailsCtrl', function($scope, mainService, $s
       $scope.abilities = res.data.spells;
       $scope.skins = res.data.skins;
       $scope.loreSorter = function(lore){
-        $scope.fixLore = lore.split('<br>').join('');
-        
+        $scope.fixLore = lore.split('<br>').join('\n');
+
 
 
       }

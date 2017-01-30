@@ -1,15 +1,24 @@
-<button ui-sref="weather">weather</button>
-
-<input type="text" ng-model="filter.name" />
 <div>
+<div>
+  <h1 class="text-primary"><em>Pick your Champion Summoner</em></h1>
 
+  <br />
+  <input type="text" ng-model="filter.name" />
+</div>
+
+
+
+<div>
 <ul class="mainImgDiv"  >
   <li ng-repeat="champ in allChamps">
-    <img class="mainImg" ui-sref="details({id: champ.id})" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{{champ.key}}_0.jpg" />
+    <img class="mainImg " ui-sref="details({id: champ.id})" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/{{champ.key}}_0.jpg" />
   </li>
 </ul>
 
 
+
+
+</div>
 
 
 </div>

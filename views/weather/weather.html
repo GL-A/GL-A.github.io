@@ -1,12 +1,22 @@
-<body ng-style="weatherBackground">
+<div>
+
   <h1>weather</h1>
 
   <input type="text" ng-model="city" />
+  <button ng-click="findCity(city)">City</button>
   <p>
-
-    {{cityDesc.main}}
     {{cityName.name}}
+    {{cityDesc.description}}
 
+    Fahrenheit: {{cityTemp.day}}
+  <img src={{wIcon}} />
   </p>
+<img src="{{weatherBackground}}" />
 
-</body>
+
+</div>
+
+<div>
+    <button ui-sref="home">Go home!</button>
+
+</div>

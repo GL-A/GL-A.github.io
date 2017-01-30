@@ -15,7 +15,7 @@ angular.module('app', ['ui.router']).config(function($urlRouterProvider, $stateP
   })
   .state('weather', {
     templateUrl: '/views/weather/weather.html',
-    url: '/weather',
+    url: '/weather/',
     controller: 'weatherCtrl'
   })
 })
