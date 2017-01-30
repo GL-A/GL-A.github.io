@@ -58,7 +58,7 @@ pre{
   white-space: pre-wrap;
 }
 
-.mobile{
+.mobile {
   display: none;
 }
 
@@ -66,7 +66,7 @@ pre{
   .detailImg{
     display: none;
   }
-  .mobile{
+  .mobile {
     display:block;
   }
 }
