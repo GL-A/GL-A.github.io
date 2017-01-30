@@ -49,14 +49,11 @@ em{
 .mobile{
   display: none;
 }
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .mobile{
-      display: block;
-    }
-    .detailImg{
-      display: none;
-    }
+@media only screen and (max-width: 600px){
+  .detailImg{
+    display: none;
+  }
+  .mobile{
+    display:block;
+  }
 }
