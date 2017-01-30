@@ -1,7 +1,7 @@
 angular.module('app').service('weatherService', function($http){
 
   this.getWeather = function(){
-    return $http.get('http://api.openweathermap.org/data/2.5/forecast/daily?q=Provo&appid=https://api.openweathermap.org/data/2.5/forecast/daily?q=Provo&appid=18aa061c36413daf770d6f5d5715972e')
+    return $http.get('http://api.openweathermap.org/data/2.5/forecast/daily?q=Provo&appid=18aa061c36413daf770d6f5d5715972e')
     .then(function(res){
       return res;
     })
