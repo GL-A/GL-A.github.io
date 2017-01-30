@@ -16,7 +16,7 @@
   margin-bottom: 50px;
   background: #f5f5f5;
   border-radius: 4%;
-  height: 100vh;
+  max-height: 100vh;
 }
 em{
   font-family: Lobster;
