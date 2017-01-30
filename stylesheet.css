@@ -56,4 +56,7 @@ em{
     .mobile{
       display: block;
     }
+    .detailImg{
+      display: none;
+    }
 }
