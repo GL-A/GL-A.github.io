@@ -53,12 +53,15 @@ em{
 
 
 }
+
 pre{
   white-space: pre-wrap;
 }
+
 .mobile{
   display: none;
 }
+
 @media only screen and (max-width: 600px){
   .detailImg{
     display: none;
